@@ -302,7 +302,7 @@ const saveSetting = () => {
         <NFormItem path="" label="最新版本">
           <NTag type="info" size="small" round>{{ lastVersion }}</NTag>
         </NFormItem>
-        <NFormItem path="token" label="开源地址">
+        <!-- <NFormItem path="token" label="开源地址">
           <NButton text tag="a" href="https://github.com/Harry-zklcdc/go-proxy-bingai" target="_blank" type="success">Harry-zklcdc/go-proxy-bingai</NButton>
         </NFormItem>
         <NFormItem path="token" label="原作者">
@@ -311,7 +311,7 @@ const saveSetting = () => {
         <NFormItem path="token" label="原开源地址">
           <NButton text tag="a" href="https://github.com/adams549659584/go-proxy-bingai" target="_blank" type="success">adams549659584/go-proxy-bingai</NButton>
         </NFormItem>
-      </NForm>
+      </NForm> -->
       <template #action>
         <NButton ghost size="large" @click="isShowSetAboutModal = false" type="info">确定</NButton>
       </template>
